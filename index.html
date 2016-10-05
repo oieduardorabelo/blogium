@@ -3,8 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <title>Blogium</title>
+
+  <link rel="shortcut icon" href="assets/images/blogium.ico" type="image/x-icon">
   <link rel="stylesheet" href="assets/styles/main.css">
   <link href="bower_components/prism/themes/prism-okaidia.css" rel="stylesheet" />
+
   <script async defer src="https://buttons.github.io/buttons.js"></script>
   <script async defer src="bower_components/prism/prism.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -123,7 +126,7 @@
       After including the script anyway suited you best, just instantiate Blogium with the desired set of options
     </p>
 
-<pre><code class="language-js">let blog = new Blogium(options);</code></pre>
+<pre><code class="language-js">const blog = new Blogium(options);</code></pre>
 
     <h2 id="basic-usage">
       Basic Usage
@@ -197,7 +200,7 @@ blog.on('blogium.error',   response => { console.error('Oops, something has gone
     <div class="demo_postList">
       <div class="mediumWrap"></div>
     </div>
-    <button id="moreBtn" class="demo_btn" disabled> click for more</button>
+    <button id="moreBtn" class="demo_btn" disabled>click for more</button>
   </section>
   <footer class="bottom">
     <span>

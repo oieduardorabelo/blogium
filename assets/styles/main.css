@@ -16,6 +16,7 @@ a:hover {
 }
 
 .top {
+  width: 100%;
   width: 100vw;
   padding-bottom: 5rem;
   background-color: #fefefe;
@@ -198,6 +199,7 @@ li span{
 .postList {
   list-style-type: none;
   margin: 0 auto;
+  padding: 0;
 }
 
 @media (min-width: 42.5em) {
