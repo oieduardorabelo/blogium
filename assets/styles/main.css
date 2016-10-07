@@ -74,6 +74,13 @@ a:hover {
   }
 }
 
+.bigLink {
+  display: flex;
+  justify-content: center;
+  margin-top: 3em;
+  font-size: 2rem;
+}
+
 .demo_postList {
   min-height: 30vh;
   max-height: 80vh;

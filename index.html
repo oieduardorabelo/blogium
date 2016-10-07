@@ -4,12 +4,6 @@
   <meta charset="UTF-8">
   <title>Blogium</title>
 
-  <link rel="shortcut icon" href="assets/images/blogium.ico" type="image/x-icon">
-  <link rel="stylesheet" href="assets/styles/main.css">
-  <link href="bower_components/prism/themes/prism-okaidia.css" rel="stylesheet" />
-
-  <script async defer src="https://buttons.github.io/buttons.js"></script>
-  <script async defer src="bower_components/prism/prism.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="With one script you can have your personal blog, with responsive edtior dashboard and SEO optimized. Add Blogium to your stack and turn Medium into your personal CMS.">
 
@@ -18,6 +12,12 @@
   <meta property="og:url" content="https://atilafassina.github.io/blogium/">
   <meta property="og:image" content="https://atilafassina.github.io/blogium/assets/images/facebook.png">
 
+  <link rel="shortcut icon" href="assets/images/blogium.ico" type="image/x-icon">
+  <link rel="stylesheet" href="assets/styles/main.css">
+  <link href="bower_components/prism/themes/prism-okaidia.css" rel="stylesheet" />
+
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+  <script async defer src="bower_components/prism/prism.js"></script>
 </head>
 <body>
 <header class="top">
@@ -93,14 +93,21 @@
       </svg>
     </h1>
     <strong class="subtitle">
-      Make Medium your CMS
+      Your static website becomes a blog,
+    </strong>
+    <strong class="subtitle">
+      making Medium your CMS.
     </strong>
   </header>
   <aside class="gh-star">
-    <a class="github-button" href="https://github.com/atilafassina/blogium" data-style="mega" data-count-href="/atilafassina/blogium/stargazers" data-count-api="/repos/atilafassina/blogium#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star atilafassina/blogium on GitHub">Star</a>
+    <a class="github-button" href="https://github.com/atilafassina/blogium" data-icon="octicon-star" data-style="mega" data-count-href="/atilafassina/blogium/stargazers" data-count-api="/repos/atilafassina/blogium#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star atilafassina/blogium on GitHub">Star</a>
+    <a class="github-button" href="https://github.com/atilafassina/blogium/fork" data-icon="octicon-repo-forked" data-style="mega" data-count-href="/atilafassina/blogium/network" data-count-api="/repos/atilafassina/blogium#forks_count" data-count-aria-label="# forks on GitHub" aria-label="Fork atilafassina/blogium on GitHub">Fork</a>
   </aside>
 
   <article class="contentWrap">
+  <a href="https://medium.com/@atilafassina/introducing-blogium-d6ee1a343919#.y9qihlr29" class="bigLink" target="_blank">
+    ✎ Introducing: Blogium
+  </a>
   <h2 id="install">
     Install
   </h2>
@@ -108,6 +115,7 @@
     as a script inclusion
   </p>
   <pre><code class="language-markup"> &lt;script src="./dist/blogium.js"></script></code></pre>
+  <a class="github-button" href="https://github.com/atilafassina/blogium/archive/master.zip" data-icon="octicon-cloud-download" aria-label="Download atilafassina/blogium on GitHub">Download</a>
   <p>
   as an npm package
   </p>
@@ -117,7 +125,6 @@
   </p>
 <pre><code class="language-bash">bower i --save blogium</code></pre>
 
-  Alternatively, you can always download a .zip file
 
     <h2 id="get-started">
       Get started
@@ -192,6 +199,9 @@ blog.on('blogium.error',   response => { console.error('Oops, something has gone
   <h2>
     Check the demo! 😈
   </h2>
+  <p>
+    Replace <strong>@Medium</strong> with any username you want to test and fire away!
+  </p>
     <nav class="changeUser">
       <span class="changeUser_txt" data-wide-text="http://medium.com/rss/" data-small-text="User:"></span>
       <input id="usernameRequest" class="changeUser_input" type="text" placeholder="@Medium">
